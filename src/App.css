@@ -1,0 +1,91 @@
+img{
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+}
+
+.title{
+    font-family: monospace;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -2.24px;
+}
+p{
+    font-family: monospace;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+.boton{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background-color: #333333;
+    color: #FFF;
+    font-family: monospace;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.49px;
+    text-transform: uppercase;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.imagen{
+    margin-left: 30px;
+    padding-right: 290px;
+}
+.footers{
+    text-align: center;
+    padding-top: 100px;
+}
+.credit{
+    color: #BDBDBD;
+    font-size: 14px;
+    pointer-events: none;
+}
+.username{
+    color: #838282;
+    font-style: italic;
+    
+}
+.logo{
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    padding: 20px;
+    font-style: bold;
+}
+
+@media (max-width: 768px) {
+    *{
+        padding: 0;
+    }
+    .contenedor{
+        flex-flow: column;
+        gap: 0;
+    }
+    .title{
+        font-family: Space Mono;
+        font-size: 45px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        text-align: left;
+    }
+    p{
+        font-size: 18px;
+        padding: 10px;
+    }
+    .imagen{
+        margin-left: 500px;
+    }
+}
